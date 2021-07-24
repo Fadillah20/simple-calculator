@@ -1,0 +1,45 @@
+# simple-calculator
+#include <iostream>
+using namespace std;
+
+//variabel
+int angka1;
+int angka2;
+
+//main program
+int main(int argc, char *argv[])
+{
+//inputan
+cout << "Angka Pertama: ";
+cin >> angka1;
+cout << "Angka Kedua: ";
+cin >> angka2;
+
+//hasil
+
+//tambah
+cout << "Hasil Tambah: ";
+cout << angka1 + angka2;
+cout << endl;
+
+//kurang
+cout << "Hasil Kurang: ";
+cout << angka1 - angka2;
+cout << endl;
+
+//bagi
+cout << "Hasil Bagi: ";
+cout << angka1 / angka2;
+cout << endl;
+
+//kali
+cout << "Hasil Kali: ";
+cout << angka1 * angka2;
+cout << endl;
+
+//rumus keliling persegi panjang
+int keliling_pp = 2*(angka1 + angka2);
+cout << "Keliling Persegi Panjang: ";
+cout << keliling_pp;
+
+}
